@@ -11,10 +11,13 @@
         <RouterLink to="/">Home</RouterLink>
       </li>
       <li>
-        <RouterLink to="/">Products List</RouterLink>
+        <RouterLink to="/products">Products List</RouterLink>
       </li>
       <li>
-        <RouterLink to="/order">Order List</RouterLink>
+        <RouterLink to="/orders-list">Order List</RouterLink>
+      </li>
+      <li>
+        <RouterLink to="/create-order">Create</RouterLink>
       </li>
     </ul>
   </nav>
