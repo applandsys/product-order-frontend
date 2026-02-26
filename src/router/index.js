@@ -7,7 +7,8 @@ import HomePage from './../pages/HomePage.vue'
 const routes = [
     { path: '/', component: HomePage },
     { path: '/products', component: ProductList },
-    { path: '/orders', component: OrderList },
+    { path: '/create-order', component: ProductList },
+    { path: '/orders-list', component: OrderList },
 ]
 
 export const router = createRouter({
